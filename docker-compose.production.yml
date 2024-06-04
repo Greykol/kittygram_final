@@ -30,7 +30,7 @@ services:
     image: greykol/kittygram_gateway
     env_file: .env
     volumes:
-      - static_volume:/static/
+      - static_volume:/staticfiles/
       - media_volume:/media
     ports:
       - 9000:80 
