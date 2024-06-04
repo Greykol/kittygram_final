@@ -18,8 +18,6 @@ services:
     volumes:
       - static_volume:/backend_static
       - media_volume:/media
-    expose:
-      - "9000"
 
   frontend:
     image: greykol/kittygram_frontend
@@ -35,4 +33,4 @@ services:
       - static_volume:/staticfiles/
       - media_volume:/media
     ports:
-      - 80:80 
+      - 9000:80 
