@@ -25,6 +25,8 @@ services:
     command: cp -r /app/build/. /frontend_static/
     volumes:
       - static_volume:/frontend_static
+    ports:
+      - 3000:9000
 
   gateway:
     image: greykol/kittygram_gateway
