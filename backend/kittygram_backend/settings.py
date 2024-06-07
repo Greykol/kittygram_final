@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'default_secret_key_for_tests')
 
 DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = os.getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
+ALLOWED_HOSTS = ['158.160.88.45', '127.0.0.1', 'localhost', 'kittygrey.zapto.org']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
