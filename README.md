@@ -29,4 +29,5 @@ dockerhub_username: ваш_логин_на_докерхабе
 ## Ссылка на сайт
 ```
 https://kittygrey.zapto.org
+https://tskgrey.zapto.org
 ```
